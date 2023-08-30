@@ -1,0 +1,14 @@
+{
+    "name": "checklists",
+    "version": "1.0.0",
+    "description": "manage your checklists",
+    "manifest_version": 3,
+    "author": "ml",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "checklists"
+    },
+    "permissions": [
+        "storage"
+    ]
+}

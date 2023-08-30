@@ -1,0 +1,51 @@
+.list-name {
+    font-weight: 700;
+}
+
+
+.a-list-button {
+    border-width: 0px;
+    background-color: transparent;
+    padding: 10px;
+    margin: 1px;
+    /*height: 20px;*/
+    border-radius: 12px;
+    margin-right: 15px;
+    flex-direction: column;
+    width: 230px;
+    text-align: left;
+}
+
+.delete-list-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    align-self: center;
+    padding: 0px;
+    border-width: 0px;
+    block-size: fit-content;
+    background-color: transparent;
+}
+
+.list-para {
+    display: flex;
+    font-size: 0;
+    border-top: black solid 1px;
+    width: 270px;
+}
+
+.list-para:hover {
+    background-color: rgb(203, 242, 255);
+}
+
+.delete-img, .delete-list-img {
+    margin: 0px;
+}
+
+.js-new-list-div {
+    background-color: transparent;
+    border-top: black solid 1px;
+    width: 270px;
+    display: flex;
+}

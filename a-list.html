@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/shared.css">
+        <link rel="stylesheet" href="styles/a-list.css">
+        <title>A List</title>
+    </head>
+    <body>
+        <header>
+            <p><button class="list-home-button" onclick="window.location.href='index.html'">
+                <img class="home-button" width="30px" src="https://static.vecteezy.com/system/resources/previews/010/157/483/original/house-symbol-and-home-icon-sign-design-free-png.png">
+            </button></p>
+            <div class="js-list-of-lists-div"></div>
+        </header>
+
+        <h1 class="js-list-name"></h1>
+        <main>
+            <div class="js-list-items">
+
+            </div>
+            <div class="js-new-item-div">
+                <input type="text" class="js-new-item-input" placeholder="new list item">
+                <!--<button class="js-new-item-button">Add new item</button>-->
+            </div>
+            <div class="bottom-buttons">
+                <div class="js-reset-div">
+                    <button class="js-reset-button">Reset</button>
+                </div>
+                <div class="js-delete-completed-div">
+                    <button class="js-delete-completed-button">Delete completed items</button>
+                </div>
+                <div class="js-delete-all-div">
+                    <button class="js-delete-all-button">Delete all</button>
+                </div>
+            </div>
+        </main>
+        
+        <script src="scripts/storage.js"></script>
+        <script src="scripts/generate.js"></script>
+        <script src="scripts/items/list.js"></script>
+        <script src="scripts/items/home.js"></script>
+        <script src="scripts/items/display.js"></script>
+        <script src="scripts/items/new.js"></script>
+        <script src="scripts/items/reset.js"></script>
+        <script src="scripts/items/delete.js"></script>
+    </body>
+</html>
