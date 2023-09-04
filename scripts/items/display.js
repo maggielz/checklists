@@ -40,7 +40,7 @@ async function showItems() {
             let deleteIdx = currentList.items.indexOf(item);
             currentList.items.splice(deleteIdx, 1);
             setAllListsAsync(allLists);
-            showLists();
+            showItems();
         });
 
         const itemLineElem = document.createElement('ul');
